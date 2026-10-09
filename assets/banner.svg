@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050b14"/><stop offset="1" stop-color="#14202f"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1f3a52" stroke-width="1" opacity=".5"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <circle cx="1020" cy="150" r="110" fill="none" stroke="#2f6f4f" stroke-width="2" opacity=".6"/>
+  <circle cx="1020" cy="150" r="70" fill="none" stroke="#2f6f4f" stroke-width="2" opacity=".5"/>
+  <circle cx="1020" cy="150" r="30" fill="none" stroke="#2f6f4f" stroke-width="2" opacity=".4"/>
+  <line x1="910" y1="150" x2="1130" y2="150" stroke="#2f6f4f" opacity=".5"/>
+  <line x1="1020" y1="40" x2="1020" y2="260" stroke="#2f6f4f" opacity=".5"/>
+  <circle cx="985" cy="120" r="6" fill="#4f8cff"/>
+  <circle cx="1060" cy="105" r="6" fill="#ff4d4d"/>
+  <circle cx="1075" cy="185" r="6" fill="#ffd24d"/>
+  <text x="70" y="150" font-family="Courier New, monospace" font-size="84" font-weight="700" fill="#e8f1ff" letter-spacing="8">WAR GAMES</text>
+  <text x="74" y="200" font-family="Courier New, monospace" font-size="26" fill="#58e29a" letter-spacing="3">AI vs AI GEOPOLITICAL STRATEGY SIMULATION</text>
+  <text x="74" y="245" font-family="Courier New, monospace" font-size="20" fill="#7f93a8" letter-spacing="2">NATO  //  RUSSIA  //  CHINA  --  SHALL WE PLAY A GAME?</text>
+</svg>

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.local
+.claude/
+/tmp/
+*.bak
+CLAUDE.local.md
+CLAUDE.md

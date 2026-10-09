@@ -1,0 +1,46 @@
+{
+  "name": "wargames-ai-simulator",
+  "version": "1.0.0",
+  "description": "AI-powered geopolitical strategy simulation - NATO, Russia and China, each commanded by an LLM",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "vite",
+    "server": "tsx watch server/index.ts",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "start": "tsx server/index.ts",
+    "lint": "eslint .",
+    "test": "vitest run"
+  },
+  "keywords": ["ai","llm","strategy-game","simulation","gemini","openai","claude","typescript","vite","leaflet"],
+  "author": "Syed Muhammad Tayyab (https://github.com/Syed-Muhammad-Tayyab)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Syed-Muhammad-Tayyab/wargames-ai-simulator.git"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "earcut": "^3.0.2",
+    "express": "^5.2.1",
+    "leaflet": "^1.9.4",
+    "typescript": "^5.9.3",
+    "vite": "^5.4.21"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@types/cors": "^2.8.19",
+    "@types/earcut": "^3.0.0",
+    "@types/express": "^5.0.6",
+    "@types/leaflet": "^1.9.17",
+    "concurrently": "^9.2.1",
+    "eslint": "^9.39.5",
+    "globals": "^17.12.0",
+    "tsx": "^4.21.0",
+    "typescript-eslint": "^8.70.0",
+    "vitest": "^3.2.7"
+  }
+}
